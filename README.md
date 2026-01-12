@@ -1,6 +1,3 @@
-# sql-music-store-analysis
-
-
 # SQL Music Store Analysis 🎵
 
 ## 📌 Project Overview
