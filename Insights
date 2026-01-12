@@ -1,0 +1,65 @@
+.
+
+#📊 Insights from SQL Music Store Analysis
+
+This project was done to understand customer behavior and sales patterns in a digital music store using SQL. Below are the key insights discovered from the analysis.
+
+#1. Seniority Exists Mainly at Higher Organizational Levels
+
+By analyzing employee job titles, it was observed that only a small portion of employees hold senior-level roles. This suggests a relatively flat organizational structure with limited hierarchy at the top.
+
+#2. Invoice Generation Is Uneven Across Countries
+
+Some countries generate significantly more invoices than others. This indicates that the music store has stronger market presence in specific regions, while other countries contribute much less to overall transaction volume.
+
+#3. A Small Number of Invoices Account for Very High Values
+
+The top 3 invoice values are noticeably higher than the average invoice amount. This suggests the presence of a few high-value purchases that contribute disproportionately to total revenue.
+
+#4. One City Clearly Outperforms Others in Revenue
+
+After grouping total invoice values by city, one city emerged as the highest revenue generator. This makes it a strong candidate for hosting promotional events such as music festivals or exclusive campaigns.
+
+#5. Revenue Is Concentrated Among a Few Customers
+
+The analysis shows that a single customer has spent significantly more than others, making them the best customer overall. This highlights the importance of retaining high-value customers through loyalty programs or targeted offers.
+
+#6. Rock Music Has a Large and Loyal Listener Base
+
+Customers who listen to Rock music form a substantial and clearly identifiable group. The distribution of Rock listeners across different countries indicates that Rock remains one of the most consistently popular genres.
+
+#7. Longer Tracks Are Less Common but Still Present
+
+Tracks longer than the average song duration exist but are relatively rare. These longer tracks may represent special editions, live performances, or niche music preferences.
+
+#8. Customer Spending Varies Significantly by Artist
+
+When analyzing spending per artist, it became clear that customer spending is not evenly distributed. A small number of artists generate the majority of revenue, suggesting a strong preference for certain artists over others.
+
+#9. Music Preferences Differ Strongly by Country
+
+Using window functions, the most popular genre was identified for each country. The results show that music taste varies widely across regions, with some countries sharing the top genre due to similar purchase volumes.
+
+#10. Top-Spending Customers Differ Across Countries
+
+The customer who spends the most on music is not the same in every country. In some cases, multiple customers share the top position, which shows that high spending behavior is not always dominated by a single individual.
+
+#11. Window Functions Made Complex Analysis Possible
+
+Advanced queries using window functions such as DENSE_RANK() allowed ranking within countries without losing row-level detail. This approach was essential for accurately identifying top genres and customers while correctly handling ties.
+
+#12. Key Learning Outcome
+
+This project strengthened my understanding of:
+
+Writing complex JOIN queries
+
+Aggregating data correctly using GROUP BY
+
+Solving real-world ranking problems with window functions
+
+Structuring SQL queries in a readable and logical way
+
+Final Note
+
+This project was my first hands-on experience applying SQL to a real dataset. It helped bridge the gap between learning SQL syntax and using SQL to answer meaningful business questions.
